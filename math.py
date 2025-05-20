@@ -432,7 +432,7 @@ if __name__ == '__main__':
     # Load model and tokenizer
     print("Loading model and tokenizer...")
     model_name = "meta-llama/Meta-Llama-3-8B"  # Updated to use HF model
-    hf_token = "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"
+    hf_token = "[enter access token]"
     
     tokenizer = AutoTokenizer.from_pretrained(
         model_name,
